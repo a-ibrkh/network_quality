@@ -22,7 +22,7 @@ iOS exposes far less than Android (no signal strength or cell IDs).
 dependencies:
   network_quality:
     git:
-      url: git@github.com:OWNER/network_quality.git
+      url: https://github.com/a-ibrkh/network_quality.git
       ref: v0.1.0
 ```
 

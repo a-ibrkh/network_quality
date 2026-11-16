@@ -42,7 +42,7 @@ The package is not on pub.dev. Add it as a git dependency in your app's
 dependencies:
   network_quality:
     git:
-      url: https://github.com/OWNER/network_quality.git
+      url: https://github.com/a-ibrkh/network_quality.git
       ref: v0.1.0        # a tag; use a commit SHA for an exact pin
 ```
 
@@ -55,7 +55,7 @@ flutter pub get
 **Private repository.** If the repository is private, `flutter pub get`
 uses your git credentials. Either:
 
-- use the SSH URL (`git@github.com:OWNER/network_quality.git`) with an
+- use the SSH URL (`git@github.com:a-ibrkh/network_quality.git`) with an
   SSH key added to your GitHub account, or
 - keep the HTTPS URL and have a credential helper or personal access token
   configured.

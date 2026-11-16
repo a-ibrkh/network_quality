@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.description      = <<-DESC
 Network quality measurement SDK: cellular radio, connectivity, location and speed-test telemetry.
                        DESC
-  s.homepage         = 'https://github.com/OWNER/network_quality' # TODO: set to the repo URL
+  s.homepage         = 'https://github.com/a-ibrkh/network_quality'
   s.license          = { :file => '../LICENSE' }
   s.author           = 'BuildX'
   s.source           = { :path => '.' }
