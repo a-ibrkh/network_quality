@@ -1,0 +1,32 @@
+name: network_quality
+description: "Network quality measurement SDK: cellular radio, connectivity, location and speed-test telemetry."
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+  flutter: ">=3.27.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  battery_plus: ^6.2.1
+  connectivity_plus: ^6.1.0
+  device_info_plus: ^11.2.0
+  geolocator: ^13.0.2
+  shared_preferences: ^2.3.3
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: uz.buildx.network_quality
+        pluginClass: NetworkQualityPlugin
+      ios:
+        pluginClass: NetworkQualityPlugin

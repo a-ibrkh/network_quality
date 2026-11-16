@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Merged into every host app that depends on network_quality, so
+         host apps don't declare these themselves. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- Required by Android for TelephonyManager.getAllCellInfo() /
+         requestCellInfoUpdate(), and also used to attach a geographic fix to
+         each measurement. One grant covers both. -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- Android 12+ lets the user downgrade a fine-location request to
+         approximate. Declaring coarse explicitly means that choice still
+         yields a usable (if less precise) fix rather than nothing. -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+</manifest>
