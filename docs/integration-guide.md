@@ -52,16 +52,8 @@ Then run:
 flutter pub get
 ```
 
-**Private repository.** If the repository is private, `flutter pub get`
-uses your git credentials. Either:
-
-- use the SSH URL (`git@github.com:a-ibrkh/network_quality.git`) with an
-  SSH key added to your GitHub account, or
-- keep the HTTPS URL and have a credential helper or personal access token
-  configured.
-
-On CI, give the build a deploy key or token with read access to this
-repository.
+The repository is public, so no GitHub account or credentials are needed,
+on developer machines or on CI.
 
 **Developing the SDK alongside your app.** Point at a local checkout
 instead:
